@@ -8,7 +8,9 @@
     "scss-compile-cafe": "node-sass ./cafe/scss/style.scss ./cafe/style.css",
     "scss-compile-cv": "node-sass ./cv/scss/style.scss ./cv/style.css",
     "scss-compile-blog": "node-sass ./blog/scss/style.scss ./blog/style.css",
-    "scss-compile-website": "node-sass ./website/scss/style.scss ./website/style.css"
+    "scss-compile-website": "node-sass ./website/scss/style.scss ./website/style.css",
+    "scss-compile-analytics": "node-sass ./analytics/scss/style.scss ./analytics/style.css",
+    "scss-compile-portfolio": "node-sass ./portfolio/scss/style.scss ./portfolio/style.css"
   },
   "repository": {
     "type": "git",
