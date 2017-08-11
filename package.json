@@ -1,0 +1,25 @@
+{
+  "name": "trainingsites",
+  "version": "1.0.0",
+  "description": "This repo is a small collection of static sites to be used as a development tool.",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint ./**/scss/*.scss --watch",
+    "scss-compile-cafe": "node-sass ./cafe/scss/style.scss ./cafe/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whookam/html_examples.git"
+  },
+  "author": "Peter Whyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whookam/html_examples/issues"
+  },
+  "homepage": "https://github.com/whookam/html_examples#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  }
+}
