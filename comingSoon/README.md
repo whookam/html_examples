@@ -10,7 +10,56 @@ time please just add some text here.
 There needs to be a footer in the bottom left corner with a link back to the 
 design.
 
-## files for this project
+## CSS Styles
+These are a few of the CSS styles that are to be used.
+
+#### Logo (header area)
+```css
+font-size: 24px;
+```
+
+#### Coming soon title
+```css
+line-height: 96px;
+font-size: 64px;
+animation: animatetop 0.4s;
+```
+
+#### Coming soon line
+```css
+border-top: 1px solid #eee;
+width: 40%;
+```
+
+#### Coming soon days
+```css
+font-size: 18px;
+line-height: 27px;
+```
+
+#### Footer
+```css
+font-size: 15px;
+line-height: 1.5;
+```
+
+#### Animation
+```css
+@keyframes animatetop {
+    0% {
+        top: -300px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+```
+
+
+## Files for this project
 Included in this project is a image of the design and below are the fonts and 
 images that you are expected to use. 
 
