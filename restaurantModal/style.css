@@ -34,10 +34,10 @@ header {
     box-sizing: border-box;
 }
 
-nav p {
+header p {
     margin: 24px 0;
 }
-nav button {
+header button {
     color: white;
     background: black;
     padding: 8px 16px;
@@ -49,7 +49,7 @@ nav button {
     box-sizing: border-box;
 }
 
-nav button:hover {
+header button:hover {
     color: black;
     background: #ccc;
 }
