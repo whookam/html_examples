@@ -1,0 +1,81 @@
+/*
+    RESET PROPERTIES
+ */
+body, html, h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+
+body,
+h1 {
+    font-family: "Raleway", sans-serif
+}
+body,
+html {
+    height: 100%;
+}
+
+.background-image {
+    background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+header {
+    position: absolute;
+    top: 15px;
+    left: 24px;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.flex-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    align-items: center;
+}
+
+.coming-soon h1 {
+    text-transform: uppercase;
+    font-size: 64px;
+    margin-top: 18px;
+    padding: 0 60px;
+    text-align: center;
+}
+
+.coming-soon .countdown {
+    margin-top: 22px;
+    font-size: 18px;
+    border-top: 1px solid white;
+    padding: 20px 44px;
+}
+
+footer {
+    color: white;
+    position: absolute;
+    left: 24px;
+    bottom: 14px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer a {
+    color: white;
+}
