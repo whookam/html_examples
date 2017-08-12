@@ -36,6 +36,7 @@ header {
 
 header p {
     margin: 24px 0;
+    line-height: 36px;
 }
 header button {
     color: white;
