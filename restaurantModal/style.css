@@ -15,6 +15,7 @@ button {
 body,
 html {
     height: 100%;
+    box-sizing: border-box;
 }
 
 .background-image {
@@ -44,6 +45,7 @@ nav button {
     font-weight: 400;
     line-height: 1.5;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 nav button:hover {
@@ -63,6 +65,7 @@ nav button:hover {
     font-size: 4em;
     color: white;
     font-weight: 400;
+    box-sizing: border-box;
 }
 
 footer {
@@ -77,7 +80,7 @@ footer {
 
 footer h2 {
     font-size: 24px;
-    margin-bottom: 34px;
+    margin-bottom: 27px;
     font-weight: 400;
     line-height: 36px;
 }
@@ -189,5 +192,24 @@ form input {
 
     100% {
         transform: scale(1);
+    }
+}
+
+@media (max-width: 992px) {
+    .modal-content {
+       width: 600px;
+    }
+}
+
+@media (max-width:768px) {
+    .modal-content {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px ) {
+    .modal-content {
+        width: auto;
+        margin: 0 10px;
     }
 }
