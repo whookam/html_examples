@@ -31,6 +31,10 @@ header {
     padding: 12px 24px;
     color: white;
     font-size: 24px;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 .coming-soon {
@@ -39,6 +43,9 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    line-height: 22.5px;
+    box-sizing: border-box;
+
 }
 
 .coming-soon h1 {
@@ -49,6 +56,8 @@ header {
     position: relative;
     animation: animatetop 0.4s;
     font-weight: normal;
+    line-height: 96px;
+    box-sizing: border-box;
 }
 
 .coming-soon hr {
@@ -61,6 +70,8 @@ header {
 .coming-soon .countdown {
     font-size: 18px;
     text-align: center;
+    box-sizing: border-box;
+    line-height: 27px;
 }
 
 footer {
