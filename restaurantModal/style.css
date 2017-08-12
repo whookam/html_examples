@@ -5,6 +5,7 @@ body, html {
     margin: 0;
     padding: 0;
     line-height: 1.5;
+    font-size: 15px;
 }
 
 body,
@@ -34,7 +35,7 @@ header {
 }
 
 nav p {
-    margin-bottom: 24px;
+    margin: 24px 0;
 }
 nav button {
     color: white;
@@ -62,7 +63,7 @@ nav button:hover {
 }
 
 .logo h1 {
-    font-size: 4em;
+    font-size: 64px;
     color: white;
     font-weight: 400;
     box-sizing: border-box;
