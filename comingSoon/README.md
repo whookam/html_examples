@@ -30,3 +30,6 @@ https://fonts.google.com/specimen/Raleway
 
 #### CSS Background
 https://www.w3schools.com/css/css_background.asp
+
+#### CSS Centering things on the page
+https://www.w3.org/Style/Examples/007/center.en.html
