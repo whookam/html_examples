@@ -15,32 +15,42 @@ These are a few of the CSS styles that are to be used.
 
 #### Logo (header area)
 ```css
-font-size: 24px;
+header {
+    font-size: 24px;
+}
 ```
 
 #### Coming soon title
 ```css
-line-height: 96px;
-font-size: 64px;
-animation: animatetop 0.4s;
+.coming-soon h1 {
+  line-height: 96px;
+  font-size: 64px;
+  animation: animatetop 0.4s;
+}
 ```
 
 #### Coming soon line
 ```css
-border-top: 1px solid #eee;
-width: 40%;
+.coming-soon hr {
+  border-top: 1px solid #eee;
+  width: 40%;
+}
 ```
 
 #### Coming soon days
 ```css
-font-size: 18px;
-line-height: 27px;
+.coming-soon .countdown {
+  font-size: 18px;
+  line-height: 27px;
+}
 ```
 
 #### Footer
 ```css
-font-size: 15px;
-line-height: 1.5;
+footer {
+  font-size: 15px;
+  line-height: 1.5;
+}
 ```
 
 #### Animation

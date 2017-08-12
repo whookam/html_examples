@@ -1,0 +1,193 @@
+/*
+    RESET PROPERTIES
+ */
+body, html {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body,
+h1,
+button {
+    font-family: "Raleway", sans-serif
+}
+body,
+html {
+    height: 100%;
+}
+
+.background-image {
+    background-image: url('https://www.w3schools.com/w3images/onepage_restaurant.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+
+nav p {
+    margin-bottom: 24px;
+}
+nav button {
+    color: white;
+    background: black;
+    padding: 8px 16px;
+    font-size: 24px;
+    border: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+nav button:hover {
+    color: black;
+    background: #ccc;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.logo h1 {
+    font-size: 4em;
+    color: white;
+    font-weight: 400;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 16px;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 34px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+footer a {
+    color: inherit;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 100px;
+    display: none;
+}
+
+.modal-content {
+    width: 900px;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    animation: animatezoom 0.6s;
+}
+
+.menu-title {
+    color: white;
+    background: black;
+    font-size: 36px;
+    margin: 0;
+    padding: 10px 16px;
+}
+
+ul.menu-list {
+    list-style: none;
+    padding: 0 17px;
+    margin: 6px 0;
+}
+
+.menu-list li {
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 1px;
+}
+
+.modal-content ul:last-child {
+    padding-bottom: 4px;
+}
+
+.close-modal {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: #000;
+    background: #ccc;
+}
+
+.innerWrapper {
+    padding: 0 16px;
+}
+
+.innerWrapper p {
+    font-size: 15px;
+}
+
+form {
+    padding-bottom: 16px;
+}
+
+form input {
+    padding: 16px 8px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: inherit;
+    line-height: 1.5;
+    font-family: inherit;
+}
+
+.button {
+    border: 0;
+    background: none;
+    padding: 10px 16px;
+    font-size: 15px;
+}
+
+.button:hover {
+    background: #ccc;
+}
+
+@keyframes animatezoom {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
