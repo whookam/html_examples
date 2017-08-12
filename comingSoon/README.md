@@ -33,3 +33,6 @@ https://www.w3schools.com/css/css_background.asp
 
 #### CSS Centering things on the page
 https://www.w3.org/Style/Examples/007/center.en.html
+
+#### CSS Animation
+https://www.w3schools.com/css/css3_animations.asp

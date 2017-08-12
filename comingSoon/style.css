@@ -1,9 +1,10 @@
 /*
     RESET PROPERTIES
  */
-body, html, h1, h2, h3, h4, h5, h6, p, a {
+body, html {
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 
 
@@ -25,11 +26,9 @@ html {
 
 header {
     position: absolute;
-    top: 15px;
-    left: 24px;
-}
-
-header h1 {
+    top: 0;
+    left: 0;
+    padding: 12px 24px;
     color: white;
     font-size: 24px;
 }
@@ -40,35 +39,52 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 .coming-soon h1 {
     text-transform: uppercase;
     font-size: 64px;
-    margin-top: 15px;
+    margin: 10px 0;
     padding: 0;
+    position: relative;
+    animation: animatetop 0.4s;
+    font-weight: normal;
+}
+
+.coming-soon hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 0 auto;
+    width: 40%;
 }
 
 .coming-soon .countdown {
-    display: inline-block;
-    margin-top: 22px;
     font-size: 18px;
-    border-top: 1px solid white;
-    padding: 20px 44px;
+    text-align: center;
 }
 
 footer {
     color: white;
     position: absolute;
-    left: 24px;
-    bottom: 14px;
-}
-
-footer p {
+    left: 0;
+    bottom: 0;
+    padding: 12px 24px;
     font-size: 15px;
+    line-height: 1.5;
 }
 
 footer a {
-    color: white;
+    color: inherit;
+}
+
+@keyframes animatetop {
+    0% {
+        top: -300px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
 }
