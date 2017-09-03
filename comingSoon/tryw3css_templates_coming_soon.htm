@@ -5,6 +5,10 @@
   <title>Coming Soon</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://ejulianova.github.io/guides/guides.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="http://ejulianova.github.io/guides/guides.min.js"></script>
+
 </head>
 <body>
   <div class="background-image">
@@ -19,8 +23,23 @@
     </section>
 
     <footer>
+      <button type="button" id="tour">Start tour</button>
       Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
     </footer>
   </div>
+
+  <script>
+    jQuery('#tour').guides({
+      guides: [{
+        element: jQuery('header'),
+        html: 'This is the header'
+      },
+      {
+        element: jQuery('h1'),
+        html: 'the page title'
+      }]
+    });
+  </script>
+
 </body>
 </html>

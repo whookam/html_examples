@@ -4,8 +4,8 @@
   "description": "This repo is a small collection of static sites to be used as a development tool.",
   "main": "index.js",
   "scripts": {
-    "stylelint": "stylelint ./**/scss/*.scss",
-    "scss-compile-cafe": "node-sass ./cafe/scss/style.scss ./cafe/style.css",
+    "stylelint": "stylelint ./**/scss/*.scss --watch",
+    "scss-compile-cafe": "node-sass ./cafe/scss/style.scss ./cafe/style.css -w",
     "scss-compile-cv": "node-sass ./cv/scss/style.scss ./cv/style.css",
     "scss-compile-blog": "node-sass ./blog/scss/style.scss ./blog/style.css",
     "scss-compile-website": "node-sass ./website/scss/style.scss ./website/style.css",

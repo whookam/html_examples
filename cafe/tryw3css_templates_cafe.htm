@@ -3,10 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <title>Cafe</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
   <link rel="stylesheet" href="style.css">
-  <script src="fn.js"></script>
 </head>
 <body>
-<P>Put your code here</P>
+
+  <!--MENU SECTION-->
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#where">Where</a>
+  </nav>
+
+  <!--HOME SECTION-->
+  <div id="home" class="hero-image">
+    <h1 class="title">the<br />Cafe</h1>
+    <div class="opening-times hide-small">Open from 6am to 5pm</div>
+    <div class="address">15 Ard street, 5015</div>
+  </div>
+
+  <!--ABOUT SECTION-->
+  <div id="about" class="wrapper">
+    <div class="section-title"><h2>About the cafe</h2></div>
+    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <blockquote>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet. <span>Chef, Coffeeist and Owner: Liam Brown</span></blockquote>
+
+    <img src="https://www.w3schools.com/w3images/coffeeshop.jpg" class="inline-image">
+    <p>Opening hours: everyday from 6am to 5pm</p>
+    <p>Address: 15 Adr street, 5015, NY</p>
+  </div>
+
+  <!--MENU SECTION-->
+  <div id="menu" class="wrapper">
+    <div class="section-title"><h2>The Menu</h2></div>
+
+    <div class="tabbed-container">
+      <div class="tabbed-options">
+        <a id="EatLink" class="tabbed-option" href="javascript:void(0)" onclick="openMenu(event, 'tab-eat');">Eat</a>
+        <a class="tabbed-option" href="javascript:void(0)" onclick="openMenu(event, 'tab-drink');">Drink</a>
+      </div>
+      <div id="tab-eat" class="tabbed-content">
+        <div class="cafe-item">
+          <h4 class="item-name">Bread Basket</h4>
+          <p class="item-description">Assortment of fresh baked fruit breads and muffins 5.50</p>
+        </div>
+
+        <div class="cafe-item">
+          <h4 class="item-name">Honey Almond Granola with Fruits</h4>
+          <p class="item-description">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+        </div>
+
+        <div class="cafe-item">
+          <h4 class="item-name">Belgian Waffle</h4>
+          <p class="item-description">Vanilla flavored batter with malted flour 7.50</p>
+        </div>
+
+        <div class="cafe-item">
+          <h4 class="item-name">Scrambled eggs</h4>
+          <p class="item-description">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+        </div>
+
+        <div class="cafe-item">
+          <h4 class="item-name">Blueberry Pancakes</h4>
+          <p class="item-description">With syrup, butter and lots of berries 8.50</p>
+        </div>
+      </div>
+
+      <div id="tab-drink" class="tabbed-content">
+        <div class="cafe-item">
+          <h4 class="item-name">Coffee</h4>
+          <p class="item-description">Regular coffee 2.50</p>
+        </div>
+
+        <div class="cafe-item">
+          <h4 class="item-name">Chocolato</h4>
+          <p class="item-description">Chocolate espresso with milk 4.50</p>
+        </div>
+
+        <div class="cafe-item">
+          <h4 class="item-name">Corretto</h4>
+          <p class="item-description">Whiskey and coffee 5.00</p>
+        </div>
+
+        <div class="cafe-item">
+          <h4 class="item-name">Iced tea</h4>
+          <p class="item-description">Hot tea, except not hot 3.00</p>
+        </div>
+
+        <div class="cafe-item">
+          <h4 class="item-name">Soda</h4>
+          <p class="item-description">Coke, Sprite, Fanta, etc. 2.50</p>
+        </div>
+      </div>
+    </div>
+
+    <img src="https://www.w3schools.com/w3images/coffeehouse2.jpg" class="inline-image">
+  </div>
+
+  <!--WHERE TO FIND US SECTION-->
+  <div id="where" class="wrapper">
+    <div class="section-title"><h2>Where to find us</h2></div>
+    <p>Find us at some address at some place.</p>
+
+    <div id="googleMap" class="mapFilter" style="width:100%;height:400px;"></div>
+
+    <p><span class="note">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p>Reserve a table, ask for today's special or just send us a message:</p>
+
+    <form target="_blank" action="post-form.php">
+      <p><input type="text" placeholder="Name" name="Name" required /></p>
+      <p><input type="number" placeholder="How many people" name="People" required /></p>
+      <p><input type="datetime-local" placeholder="Dataeand time" required name="date" value="2016-11-16T20:00" /></p>
+      <p><input type="text" placeholder="Message \ Special requirements" required name="Message" /></p>
+      <button class="button" type="submit">SEND MESSAGE</button>
+    </form>
+
+  </div>
+
+  <!--FOOTER SECTION-->
+  <footer>
+    <p>Powered by <a href="#" target="_blank">w3.css</a></p>
+  </footer>
+
+  <script src="fn.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHqeH7u33Bls4bqfFQGtfmfy8YZF8qg_o&callback=myMap"></script>
+
 </body>
 </html>

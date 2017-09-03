@@ -1,0 +1,18 @@
+form {
+  input {
+    font: inherit;
+    border: 1px solid #ccc;
+    padding: 16px 8px;
+    display: block;
+    width: 100%;
+  }
+
+  button.button {
+    border: 0;
+    background: black;
+    color: white;
+    padding: 8px 16px;
+    font: inherit;
+    font-size: 18px;
+  }
+}

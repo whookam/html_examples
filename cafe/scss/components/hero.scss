@@ -1,0 +1,25 @@
+.hero-image {
+  background: url('https://www.w3schools.com/w3images/coffeehouse.jpg') no-repeat center;
+  background-size: cover;
+  min-height: 75%;
+  filter: grayscale(50%);
+  position: relative;
+}
+
+.address {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px 24px;
+  color: white;
+}
+
+.opening-times {
+  position: absolute;
+  bottom: 10px;
+  left: 24px;
+  background: black;
+  color: white;
+  padding: 0px 8px;
+  font-size: 15px;
+}

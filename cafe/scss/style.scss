@@ -1,5 +1,7 @@
-body,
-html {
-  height: 100%;
-  font-family: "Inconsolata", sans-serif;
-}
+@import "components/base";
+@import "components/fonts";
+@import "components/nav";
+@import "components/hero";
+@import "components/menu";
+@import "components/form";
+@import "components/footer";
